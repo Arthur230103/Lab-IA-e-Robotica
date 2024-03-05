@@ -1,0 +1,43 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?"],
+    "responses": ["no dia 26"]
+  },
+  { "tag": "ob1",
+  "patterns":[" O que é o PIPE?","o que é o pipe?", "Qual a ideia do pipe?"],
+  "responses": ["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. "]
+  },
+  { "tag": "ob2",
+  "patterns":["Qual os objetivo do PIPE?","Qual as metas do PIPE?"],
+  "responses": ["Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."]
+  },
+  { "tag": "ob3",
+  "patterns":["Há diferentes etapas do programa?","Qual as etapas do pipe?"],
+  "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares)\nb) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares)\nc) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000)\nd) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE"]
+  },
+  { "tag": "ob4",
+  "patterns":["Posso contratar consultores?","Como fica a propriedade intelectual?"],
+  "responses": ["Sim. Desde que bem justificado, é possível contratar Serviços de Terceiros de especialistas, de laboratórios acadêmicos ou de outras empresas. No caso de envolvimento de terceiros, prestadores de serviços ou parceiros no projeto, a relação deverá estar formalizada antes da concessão do projeto, considerando que:\na) Para os casos em que a participação do terceiro for de consultoria ou prestação de serviços, com remuneração com recursos do projeto ou da empresa, deverá ser apresentado contrato de prestação de serviços. Neste caso, a propriedade intelectual deve ser de propriedade exclusiva da pequena empresa.\nb) Caso a consultoria seja realizada por pesquisador de instituição pública, deverão ser apresentados:\nb.1) ofício da agência de inovação da respectiva Instituição de vínculo do pesquisador, concordando com a não participação na propriedade intelectual;\nb.2) autorização do órgão de pessoal da instituição para a consultoria; \nb.3) contrato entre o consultor e a empresa prevendo que a titularidade pertencerá à empresa.\nc) Para os casos em que houver colaboração entre a pequena empresa e o terceiro, poderá haver compartilhamento de propriedade intelectual, devendo ser apresentado convênio, detalhando no plano de trabalho qual a participação do terceiro e da empresa na pesquisa, bem como indicando quais serão os recursos financeiros e econômicos envolvidos para financiar as pesquisas do convênio e a origem de tais recursos.\nd) Em qualquer caso, a pequena empresa deve ter o direito de explorar com exclusividade os resultados da pesquisa.\nA atenção e cuidado profissional com os assuntos de Propriedade Intelectual é essencial para preservar o valor da empresa e de suas inovações e para viabilizar a obtenção de investimentos privados."]
+  },
+  { "tag": "ob5",
+  "patterns":["Possuo formação em uma area, posso submeter um projeto em outra area?","É possivel submeter projetos em outras areas?"],
+  "responses": ["No PIPE, o fundamental é demonstrar experiência na área do projeto. É importante que a equipe inclua profissionais de todas as áreas relevantes para a pesquisa.No entanto, nem todos os membros da equipe precisam ter relação direta com a empresa; podem ser incluídos na equipe especialistas de universidades e consultores, remunerados ou não, para complementar as especialidades necessárias à condução da pesquisa."]
+  },
+  { "tag": "ob6",
+  "patterns":["Posso desenvolver a pesquisa na universidade?"],
+  "responses": ["Não. A pesquisa deve ser desenvolvida na empresa. Eventualmente, algumas atividades específicas da pesquisa podem ser sub-contratadas de laboratórios de universidades ou de consultores acadêmicos desde que muito bem justificadas e não se constituam na parte central da pesquisa."]
+  },
+  { "tag": "ob7",
+  "patterns":["Que outro niveis são financiaveis?"],
+  "responses": ["Além das bolsas PE e TT e de recursos para viagens, são também financiáveis Serviços de Terceiros, Material Permanente e Material de Consumo. Estes podem ser adquiridos tanto no Brasil quanto no exterior. Em todos os casos, é fundamental que eles sejam bem justificados como essenciais à pesquisa científica ou tecnológica que será desenvolvida no âmbito do projeto. Não são financiáveis itens de produção ou que não sejam essenciais à pesquisa proposta, mesmo que possam ter utilidade para a empresa."]
+  }
+]
+}
